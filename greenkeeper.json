@@ -1,0 +1,9 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "css-load-indemend/package.json"
+      ]
+    }
+  }
+}
