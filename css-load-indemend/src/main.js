@@ -2,6 +2,8 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+import { Button } from 'mand-mobile'
+Vue.component(Button.name, Button);
 
 Vue.config.productionTip = false
 

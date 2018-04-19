@@ -2,18 +2,18 @@
   <div id="app">
     <img src="./assets/logo.png">
     <HelloWorld/>
-    <Tag>HelloWorld</Tag>
+    <md-button>HelloWorld</md-button>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld'
-import { Tag } from 'mand-mobile'
+// import { Button } from 'mand-mobile'
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Tag,
+    // Button,
   }
 }
 </script>
